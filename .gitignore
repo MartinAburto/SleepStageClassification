@@ -1,0 +1,23 @@
+# Jupyter
+.ipynb_checkpoints/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+
+# Virtual environments
+.venv/
+venv/
+.env
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Large data and outputs
+data/
+outputs/
