@@ -1,23 +1,73 @@
-# Jupyter
+# ==========================
+# Jupyter Notebooks
+# ==========================
 .ipynb_checkpoints/
+*.ipynb_convert/
+*.nbconvert.ipynb
 
-# Python cache
+# ==========================
+# Python cache & build
+# ==========================
 __pycache__/
 *.py[cod]
 *.pyo
 *.pyd
 *.so
 *.egg-info/
+build/
+dist/
 
+# ==========================
 # Virtual environments
+# ==========================
 .venv/
 venv/
-.env
+.env/
+env/
+.conda/
 
-# OS-specific files
+# ==========================
+# OS-specific
+# ==========================
 .DS_Store
 Thumbs.db
 
-# Large data and outputs
+# ==========================
+# Data & large assets
+# (raw PSG + hypnograms)
+# ==========================
 data/
+datasets/
+raw_data/
+*.edf
+*.npz
+*.npy
+*.csv
+*.mat
+
+# ==========================
+# Outputs
+# ==========================
+results/
 outputs/
+figures/
+reports/
+logs/
+tb_logs/
+checkpoints/
+
+# ==========================
+# Model weights
+# ==========================
+*.pt
+*.pth
+*.h5
+*.ckpt
+
+# ==========================
+# Temporary / misc
+# ==========================
+*.tmp
+*.log
+*.bak
+*.swp
