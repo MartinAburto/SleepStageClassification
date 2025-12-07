@@ -1,6 +1,6 @@
 # Sleep Stage Classification Project / Proyecto de Clasificación de Etapas del Sueño
 
-**Course / Curso:** EL — Automatic Sleep Stage Classification using EEG (Sleep-EDFx)
+**Course / Curso:** EL4106-1 — Automatic Sleep Stage Classification using EEG (Sleep-EDFx)
 
 ---
 
